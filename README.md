@@ -15,3 +15,12 @@ Pipeline Stages:
 2. Cleaning: Remove duplicates, impute missing values (median for numeric, mode for categorical), convert date column, standardize column names, remove outliers using IQR method, export cleaned data to data/processed/cleaned_data.csv.
 
 3. ETL & Feature Engineering: Extract year, month, quarter, day of week from transaction date; calculate revenue per unit; create is_bulk flag; create spent_segment (Low/Medium/High); create discount_flag; create category_code; export final DataFrame.
+
+
+Tech Stack:
+Python 3
+Pandas
+NumPy
+Matplotlib
+Jupyter Notebook
+Google Colab (optional)
