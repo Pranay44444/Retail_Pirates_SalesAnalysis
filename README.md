@@ -24,3 +24,13 @@ NumPy
 Matplotlib
 Jupyter Notebook
 Google Colab (optional)
+
+Key Insights:
+
+12,575 transactions across 25 customers and 8 product categories
+~33% of Discount Applied values were missing (4,199 out of 12,575)
+Transactions span 3+ years (2022–2025) with data across all 12 months
+Three payment channels: Cash, Credit Card, Digital Wallet
+Both Online and In-store purchase channels available
+After cleaning, 157 outlier rows were removed through IQR filtering
+Feature engineering added 9 derived columns for downstream analysis
